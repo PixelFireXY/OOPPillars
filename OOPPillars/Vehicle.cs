@@ -6,14 +6,13 @@ namespace OOPPillars
 {
     class Vehicle
     {
-        private int wheelsNumber;
-        private string model;
-        private Engine engine;
-        private Tank tank;
+        protected int wheelsNumber;
+        protected string model;
+        protected Engine engine;
+        protected Tank tank;
 
-        public Vehicle(int wheels, string mod, int displacement, float capacity)
+        public Vehicle(string mod, int displacement, float capacity)
         {
-            wheelsNumber = wheels;
             model = mod;
             engine = new Engine(displacement);
             tank = new Tank(capacity);
@@ -22,7 +21,7 @@ namespace OOPPillars
             tank.FillTank(20f);
         }
 
-        public bool StartEngine()
+        public virtual bool StartEngine()
         {
             if(tank.Fuel > 0)
             {
