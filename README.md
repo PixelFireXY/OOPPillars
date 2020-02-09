@@ -1,17 +1,17 @@
 # OOP Four Pillars
-Here you can find all the examples of the four pillars of the Oriented Object Programming (OOP) divided by classes.
+Here you can find all the examples of the four pillars of the <i>Oriented Object Programming</i> (OOP) divided by classes.
 
-Program.cs
+<b>Program.cs:</b><br>
 This class instantiate all classes and show at console all the data received. You can find the explanation in each comment
 
-ENCAPSULATION classes:
+<b>ENCAPSULATION</b> classes:
 <ul>
   <li>Tank.cs</li>
   <li>Engine.cs</li>
   <li>Vehicle.cs</li>
 </ul>
 
-INHERITANCE classes:
+<b>INHERITANCE</b> classes:
 <ul>
   <li>Tank.cs</li>
   <li>Engine.cs</li>
@@ -19,7 +19,7 @@ INHERITANCE classes:
   <li>Car.cs</li>
 </ul>
 
-POLYMORPHISM classes:
+<b>POLYMORPHISM</b> classes:
 <ul>
   <li>Tank.cs</li>
   <li>Engine.cs</li>
@@ -27,7 +27,7 @@ POLYMORPHISM classes:
   <li>Tesla.cs</li>
 </ul>
 
-ABSTRACTION classes:
+<b>ABSTRACTION</b> classes:
 <ul>
   <li>Figure.cs</li>
   <li>Cube.cs</li>
