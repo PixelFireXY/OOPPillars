@@ -27,6 +27,14 @@ namespace OOPPillars
             tesla.StartEngine();
 
             Console.ReadLine();
+
+
+            //With the ABSTRACTION you can create a template fields that the derived class must implement
+            Cube cube = new Cube();
+
+            Console.WriteLine(cube.GetFigureType());
+
+            Console.ReadLine();
         }
     }
 }
