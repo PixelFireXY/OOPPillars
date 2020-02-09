@@ -17,6 +17,9 @@ namespace OOPPillars
             model = mod;
             engine = new Engine(displacement);
             tank = new Tank(capacity);
+
+            //free fuel for the tank!
+            tank.FillTank(20f);
         }
 
         public bool StartEngine()
@@ -30,8 +33,6 @@ namespace OOPPillars
             else
             {
                 Console.WriteLine("Tank is empty!");
-
-                tank.FillTank(20f);
 
                 return false;
             }
